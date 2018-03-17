@@ -2,15 +2,25 @@ body {
 	font-family: arial, sans-serif;
 	background: #fff;
 	font-size: medium;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+center {
+	font-size: small;
 }
 
 #logo {
 	width: 272px;
-	margin: 200px auto 0 auto;
+	margin: 0 auto;
+	padding-top: 200px;
 }
 
 #search_bar {
-	width: 40%;
+	width: 35%;
 	margin: 20px auto;
 }
 
@@ -21,10 +31,14 @@ input {
 
 .ge_key {
 	background-color: rgb(242, 241, 241);
-	padding: 10px;
+	padding: 10px 15px 10px 15px;
 	border-radius: 2px;
 	display: inline;
 	margin: 5px;
+	color: #757575;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
 }
 
 #ge_bottom {
@@ -35,10 +49,48 @@ input {
 
 .bottom {
 	background-color: rgb(242, 242, 242);
-	padding: 12px;
-	border-top: 0.1px solid rgb(228, 228, 228)
+	border-top: 0.1px solid rgb(228, 228, 228);
+	padding: 10px;
 }
 
 .terms {
-	margin-left: 10px: 
+	font-size: small; 
+	color: #666;
+	padding-left: 10px;
+}
+
+#area{
+	margin-left: 10px;
+	font-size: 14px;
+	color: rgba(0,0,0,.54);
+}
+
+footer {
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+}
+
+#frb {
+	float: right;
+	display: inline;
+	margin-right: 10px;
+}
+
+.top_bar {
+	float: right;
+}
+
+li {
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px;
+	font-size: small;
+}
+
+ul {
+	right: 0;
+	position: absolute;
+	padding-right: 15px;
+	color: #666;
 }
